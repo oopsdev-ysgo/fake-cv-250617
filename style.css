@@ -174,6 +174,16 @@ body {
 .external-links a { color: inherit; text-decoration: none; transition: color 0.3s; }
 .external-links a:hover { color: var(--primary-color); }
 
+/* external-links 섹션 색상 변경 요청 */
+.external-links .summary-heading,
+.external-links li {
+    color: #ea4335; /* Brighter Google Red */
+}
+
+.external-links a:hover {
+    color: #b31412; /* Darker Google Red */
+}
+
 .summary-heading {
     font-size: 1.1rem;
     font-weight: 700;
